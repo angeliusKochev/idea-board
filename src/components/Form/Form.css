@@ -1,0 +1,29 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    background: #e94057;
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #c13347;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #c13347;
+    border: 1px solid #c13347;
+    box-sizing: border-box;
+}
